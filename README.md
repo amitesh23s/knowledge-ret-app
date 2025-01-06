@@ -11,26 +11,26 @@ Designed and implemented a field-specific AI assistant leveraging AWS Bedrock fo
 This solution provides precise and contextually relevant answers to enterprise queries by combining state-of-the-art language models with an intelligent retrieval mechanism.
 
 Key Features:
- -Document Ingestion Pipeline:
-  -Developed a robust pipeline to preprocess and segment documents into semantic data chunks.
-  -Stored vector embeddings of these data chunks in Elasticsearch, enabling fast and efficient similarity-based retrieval.
+ - Document Ingestion Pipeline:
+  - Developed a robust pipeline to preprocess and segment documents into semantic data chunks.
+  - Stored vector embeddings of these data chunks in Elasticsearch, enabling fast and efficient similarity-based retrieval.
   
--Intelligent Context Retrieval:
-  -Integrated K-Nearest Neighbors (KNN) search to fetch relevant context from the vector database.
-  -Enhanced the AI assistant's responses by augmenting prompts with retrieved context, ensuring high relevance and accuracy.
+ - Intelligent Context Retrieval:
+  - Integrated K-Nearest Neighbors (KNN) search to fetch relevant context from the vector database.
+  - Enhanced the AI assistant's responses by augmenting prompts with retrieved context, ensuring high relevance and accuracy.
 
--Foundation Model Integration:
-  -Utilized AWS Bedrock to deliver advanced natural language understanding and response generation.
-  -Seamlessly combined large language model capabilities with RAG to address specific enterprise needs.
+ - Foundation Model Integration:
+  - Utilized AWS Bedrock to deliver advanced natural language understanding and response generation.
+  - Seamlessly combined large language model capabilities with RAG to address specific enterprise needs.
 
--Django Server with RESTful Endpoints to:
-  -Push documents into the knowledge base.
-  -Submit prompts for context-enriched responses.
-  -Ensured a scalable and user-friendly API interface for smooth integration with enterprise workflows.
+ - Django Server with RESTful Endpoints to:
+  - Push documents into the knowledge base.
+  - Submit prompts for context-enriched responses.
+  - Ensured a scalable and user-friendly API interface for smooth integration with enterprise workflows.
 
--Containerized Services:
-  -Used Docker Compose to containerize and manage the Elasticsearch service, ensuring a streamlined and reproducible deployment process.
-  -Simplified development, testing, and scaling with a fully containerized stack.
+ - Containerized Services:
+  - Used Docker Compose to containerize and manage the Elasticsearch service, ensuring a streamlined and reproducible deployment process.
+  - Simplified development, testing, and scaling with a fully containerized stack.
 
 This AI assistant empowers enterprises to unlock the full potential of their knowledge base by delivering fast, accurate, and context-aware answers, 
 improving decision-making and operational efficiency. Its modular architecture, powered by scalable and containerized services, 
